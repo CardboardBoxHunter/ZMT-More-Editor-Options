@@ -1,0 +1,138 @@
+If your reading this, you probably dont know all the options this mod provides. This is here to change that.
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Section One : Vanilla Modifications
+
+[Is Contaminable]
+- Allows or Disallows the useage of contamination on Humans. | Is not mod reliant
+
+[Resist Scream]
+- Human doesn't care for screams. Does not set off "On Screamed" signals | Is not mod reliant
+
+[GrabbedOnAttack]
+- Human can be grabbed by zombies. | Is not mod reliant
+
+[InvincebleOnAttack]
+- Turns human invincble on attack, Chance of bugging. | Is not mod reliant
+
+[AllowMultipleAttackers]
+- Lets multiple zombies attack | Is not mod reliant
+
+[VisionFollowTarget]
+- Sniper aim/lasers do not chase enemies. | Is not mod reliant
+
+[FleeBeforeZombieExplode]
+- Humans run from explosions. | Is not mod reliant
+
+[IgnoreDamage]
+- Humans don't notice getting hurt. | Is not mod reliant
+
+[Attitude] | Is not mod reliant
+- Fearful, Makes Human act like a civilian.
+- Neutral, Human will not chase zombies, Waits for zombie to come to them.
+- Aggressive, Human will chase zombies.
+- Ignore, Self explanitory.
+
+[RelayAlertOverTime] | Is not mod reliant
+- Human can alert other humans.
+
+[AlertRelayRadius] | Is not mod reliant
+- How far away Human can alert other Humans.
+
+[AlertRelayRatio] | Is not mod reliant
+- Bigger number means more people can be chain-alerted, smaller means less.
+
+[Cornered] | Is not mod reliant
+- Supposed to make human act like its cornered, dont know if it actually works tho lmao.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Section Two : Modded Modifications
+
+
+| Combat
+
+[HitsMultipleTargets]
+- Human can hit multiple targets at once.
+
+[Max Targets]
+- How many tagets can be hit at once.
+
+[NextTargetHitMultiplier]
+- How much less/more damage is dealt to the enemy behind the intended target.
+
+[Attack Frequency]
+- How fast the Human attacks.
+ zombies.
+
+[Damage]
+- How much damage the Human deals.
+
+[DamageType]
+- What type of damage is dealt
+
+[Aim Range]
+- How far a Human will prepare to attack.
+
+[Attack Range]
+- How far a Human will start attacking.
+
+[Damage Range]
+- How far a Human attack will deal damage.
+
+| Misc
+
+[MaximumFallHeight] | Obsolete
+- This is obsolete, use FallVelocity instead. 
+
+[FallVelocityThreshold]
+- How fast a Human needs to go to die from fall damage.
+
+[Voice]
+- The voice the Human uses for dialog.
+
+[Vision]
+- How far away the Human can see enemies from.
+
+[Health]
+- Sets Humans health.
+
+[Is Invincible]
+- Sets Human invincible.
+
+[Is Stealthy]
+- Humans wont be targeted by zombies.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Section Three : Other Editor Shit
+
+[ZColors]
+- Zombies can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
+
+[Vip]
+- You can now give zombies the VIP treatment they've always deserved
+
+[Extended LevelSize]
+- Level Width is extended to 5000, yes i've tried everything to extend the height, the default game wont budge on it. :/
+
+[Traps]
+- Trap Mode, Kill or Damage options.
+- Kill Delay, Self explanitory.
+- Damage, Self explanitory.
+- Damage Rate, How many damage is dealt per Ingame Second.
+- Damage Type, Also self explanitory.
+
+[Patroler]
+- You can place Waypoints ontop of other Waypoints
+
+
+
+
+
+
+
+
+
