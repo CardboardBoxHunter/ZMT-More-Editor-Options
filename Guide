@@ -108,6 +108,11 @@ Section Two : Modded Modifications
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 Section Three : Other Editor Shit
 
+[ExecutionTimer]
+- UseRandomWaitingTime, Toggles if timer uses random time instead
+- MinWaitingTime, Minium amount of time that needs to pass before eligible to send signal.
+- MaxWaitingTime, Maximum amount of time that can pass before sending signal.
+
 [ZColors]
 - Zombies can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
 
