@@ -115,6 +115,8 @@ Section Three : Other Editor Shit
 
 [ZColors]
 - Zombies can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
+- Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime
+
 
 [Vip]
 - You can now give zombies the VIP treatment they've always deserved
