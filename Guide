@@ -117,9 +117,15 @@ Section Three : Other Editor Shit
 - Zombies can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
 - Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime
 
+[Kill Reciever]
+- When signal recieved, kills the zombie
+- RecieverDamageType, when signal recieved, zombie is killed with specified damage type
 
 [Vip]
 - You can now give zombies the VIP treatment they've always deserved
+
+[One Way Colliders]
+- Has active/inactive/toggle recievers now.
 
 [Extended LevelSize]
 - Level Width is extended to 5000, yes i've tried everything to extend the height, the default game wont budge on it. :/
