@@ -114,8 +114,11 @@ Section Three : Other Editor Shit
 - MaxWaitingTime, Maximum amount of time that can pass before sending signal.
 
 [ZColors]
-- Zombies can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
+- Zombies & Humans can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
 - Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime
+
+[RestoreHealth]
+- Humans health will be fully restored upon signaled
 
 [Kill Reciever]
 - When signal recieved, kills the zombie
