@@ -132,9 +132,6 @@ Section Three : Other Editor Shit
 - Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime.
 - Static zombies will have dulled versions of their ZColor.
 
-[RestoreHealth]
-- Humans health will be fully restored upon signaled.
-
 [Kill Reciever]
 - When signal recieved, kills the zombie.
 - RecieverDamageType, when signal recieved, zombie is killed with specified damage type.
