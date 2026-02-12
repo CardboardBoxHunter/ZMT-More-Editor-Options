@@ -52,7 +52,6 @@ Section One : Vanilla Modifications
 
 Section Two : Modded Modifications
 
-
 | Combat
 
 [HitsMultipleTargets]
@@ -84,6 +83,11 @@ Section Two : Modded Modifications
 
 | Misc
 
+[MoveSpeeds]
+- Sprint Speed.
+- Run Speed (Humans use this when chasing enemys).
+- Walk Speed.
+
 [MaximumFallHeight] | Obsolete
 - This is obsolete, use FallVelocity instead. 
 
@@ -105,33 +109,46 @@ Section Two : Modded Modifications
 [Is Stealthy]
 - Humans wont be targeted by zombies.
 
+
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 Section Three : Other Editor Shit
 
+[HealthRestore]
+- RestoreHealth, Regenerates full health.
+- RestoreSetHealth, Regenerates whatever you set the [Health Regen Amount] to be.
+- RestoreQuarterHealth, Regenerates a quarter of Hp.
+- RestoreHalfHealth, Regenerates half of it's Hp.
+
+[ToggleInvinciblity]
+- When Signal recieved, Toggle Invincibility.
+
 [ExecutionTimer]
-- UseRandomWaitingTime, Toggles if timer uses random time instead
+- UseRandomWaitingTime, Toggles if timer uses random time instead.
 - MinWaitingTime, Minium amount of time that needs to pass before eligible to send signal.
 - MaxWaitingTime, Maximum amount of time that can pass before sending signal.
 
 [ZColors]
 - Zombies & Humans can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
-- Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime
+- Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime.
+- Static zombies will have dulled versions of their ZColor.
 
 [RestoreHealth]
-- Humans health will be fully restored upon signaled
+- Humans health will be fully restored upon signaled.
 
 [Kill Reciever]
-- When signal recieved, kills the zombie
-- RecieverDamageType, when signal recieved, zombie is killed with specified damage type
+- When signal recieved, kills the zombie.
+- RecieverDamageType, when signal recieved, zombie is killed with specified damage type.
 
 [Vip]
-- You can now give zombies the VIP treatment they've always deserved
+- You can now give zombies the VIP treatment they've always deserved.
 
 [One Way Colliders]
 - Has active/inactive/toggle recievers now.
 
 [Extended LevelSize]
-- Level Width is extended to 5000, yes i've tried everything to extend the height, the default game wont budge on it. :/
+- Level Width is extended to 5000. Unfortunately to achieve this, the game wont let you get a height above 250. 
+If you know what your doing and edit the LVL file itself you can increase the height that way.
+Alternatively if you don't know what your doing, save a copy of the LVL beforehand. (i dont wanna be responsible for you bricking the file somehow)
 
 [Traps]
 - Trap Mode, Kill or Damage options.
