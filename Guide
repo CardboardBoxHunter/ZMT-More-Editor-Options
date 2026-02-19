@@ -113,6 +113,32 @@ Section Two : Modded Modifications
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 Section Three : Other Editor Shit
 
+[Dialog Effects] | New addition :]
+
+- Regular Effects (more to come, probably, maybe?)
+[Shake] - this shakes the entire dialog even if you use [/Shake] and I cant figure out why D:
+
+- Color Effects
+[Red]SampleTextHere[/Red]
+[Blue]SampleTextHere[/Blue]
+[Green]SampleTextHere[/Green]
+[Yellow]MoreSampleTextHere[/Yellow]
+[Orange]EvenMoreSampleTextHere[/Orange]
+[Purple]LotsOfSampleTextHere[/Purple]
+[Brown]BunchOfSampleTextOverHere[/Brown]
+[StaticRed]WholeLotHereToo[/StaticRed]
+[StaticBlue]SoMuchSampleText[/StaticBlue]
+[StaticYellow]TooMuchSampleText[/StaticYellow]
+[StaticGreen]WhoTheHellOrderedSoMuchSampleText[/StaticGreen]
+[StaticOrange]ImOverDosingOnSampleText[StaticOrange]
+[StaticBrown]WhoTheHellWouldEvenUseBrownTextAnyways[StaticBrown]
+[StaticPurple]SampleText[/StaticPurple]
+
+- Examples of use:
+[Red]This Is Red Text[Blue]And This Is Blue Text[/Blue]And Now We're back to red[/Red]
+[Shake][Red]PretendTheresAngryShakyWordsHere[/Red]
+
+
 [HealthRestore]
 - RestoreHealth, Regenerates full health.
 - RestoreSetHealth, Regenerates whatever you set the [Health Regen Amount] to be.
