@@ -119,7 +119,18 @@ Section Three : Other Editor Shit
 [Shake] SampleText [/Shake]
 When using [Shake] you can edit the shakeyness intensity by typing [Shake=InsertNumberHere]
 
+[Big] SampleText [/Big]
+When using [Big] you can edit the size of letters by typing [Big=InsertNumberHere]
+1 is the default letter size so use that as reference. 
+And yes, contrary to the effect's name you can make smaller words by doing 0.8, 0.5, etc (i was too lazy to rename it to [Size])
+
+[Rainbow] TasteTheRainbow [/Rainbow]
+-When using [Rainbow] you can edit the rainbow speed by typing [Rainbow=InsertNumberHere]
+
 - Color Effects
+
+[Pink]SampleTextHere[/Pink]
+[Magenta]SampleTextHere[/Magenta]
 [Red]SampleTextHere[/Red]
 [Blue]SampleTextHere[/Blue]
 [Green]SampleTextHere[/Green]
@@ -134,10 +145,17 @@ When using [Shake] you can edit the shakeyness intensity by typing [Shake=Insert
 [StaticOrange]ImOverDosingOnSampleText[StaticOrange]
 [StaticBrown]WhoTheHellWouldEvenUseBrownTextAnyways[StaticBrown]
 [StaticPurple]SampleText[/StaticPurple]
+[StaticMagenta]SampleTextHere[/StaticMagenta]
+[StaticBlack]GlorifiedSlightlyGreyColor[/StaticBlack]
 
 - Examples of use:
 [Red]This Is Red Text[Blue]And This Is Blue Text[/Blue]And Now We're back to red[/Red]
-[Shake][Red]PretendTheresAngryShakyWordsHere[/Red]
+
+[Shake][Rainbow]OH LORD I ATE TOO MANY SKITTLES[/Rainbow][/Shake]
+
+[Big=2][Shake=3][Red] ANGRY SHOUTY WORDS! [/Big][/Shake][Red]
+
+[Big=0.6][Shake=1.8] Shhhhhhhh there's zombies everywhere! [/Big][/Shake]
 
 
 [HealthRestore]
