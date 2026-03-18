@@ -191,19 +191,19 @@ And yes, contrary to the effect's name you can make smaller words by doing 0.8, 
 [One Way Colliders]
 - Has active/inactive/toggle recievers now.
 
-[Extended LevelSize]
+[Extended LevelSize] | Is not mod reliant
 - Level Width is extended to 5000. Unfortunately to achieve this, the game wont let you get a height above 250. 
 If you know what your doing and edit the LVL file itself you can increase the height that way.
 Alternatively if you don't know what your doing, save a copy of the LVL beforehand. (i dont wanna be responsible for you bricking the file somehow)
 
-[Traps]
+[Traps] | Is not mod reliant
 - Trap Mode, Kill or Damage options.
 - Kill Delay, Self explanitory.
 - Damage, Self explanitory.
 - Damage Rate, How many damage is dealt per Ingame Second.
 - Damage Type, Also self explanitory.
 
-[Patroler]
+[Patroler] | Is not mod reliant
 - You can place Waypoints ontop of other Waypoints
 
 
