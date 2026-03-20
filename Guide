@@ -1,6 +1,25 @@
 If your reading this, you probably dont know all the options this mod provides. This is here to change that.
 
 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Q&A for the main version
+
+
+Q: What happens if I save a modded level without the mod installed?
+A: You just overwritten all modded changes in the level, gud job.
+
+Q: What if I use 2 pcs with different mod versions that bug levels when transporting them through the devices
+A: I already had Bread complain about that lmao, Go ask him how to fix it because only he knows how. (he forgor to tell me)
+
+Q: What if I don't put the mod in the description of my level?
+A: Well uh, don't complain if people without the mod complain that certain mod dependant things aren't working.
+
+Q: Why is there so many commits?
+A: I literally have no idea how to use this site properly lmao.
+
+Q: How do i get a girlfriend :(
+A: I'm no ladies man myself, so I cant help you.
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
@@ -86,6 +105,18 @@ so your players can download the mod and actually see these features in effect. 
 - How far a Human attack will deal damage.
 
 | Misc
+
+[Glow]
+- Makes the Human glow.
+
+[GlowIntensity]
+- Intensity of the glow. Personal favorite value is 2.5.
+
+[GlowRange]
+- Range of the glow.
+
+[GlowEnableShadows]
+- Glow has shadows.
 
 [MoveSpeeds]
 - Sprint Speed.
