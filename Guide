@@ -10,7 +10,7 @@ Q: What happens if I save a modded level without the mod installed?
 A: You just overwritten all modded changes in the level, gud job.
 
 Q: What if I use 2 pcs with different mod versions that bug levels when transporting them through the devices
-A: I already had Bread complain about that lmao, Go ask him how to fix it because only he knows how. (he forgor to tell me)
+A: Dont, I already had Bread complain about that lmao, Go ask him how to fix it because only he knows how. (he forgor to tell me)
 
 Q: What if I don't put the mod in the description of my level?
 A: Well uh, don't complain if people without the mod complain that certain mod dependant things aren't working.
@@ -66,6 +66,22 @@ Section One : Vanilla Modifications
 
 [Cornered] | Is not mod reliant
 - Supposed to make human act like its cornered, dont know if it actually works tho lmao.
+
+
+[Extended LevelSize] | Is not mod reliant
+- Level Width is extended to 5000. Unfortunately to achieve this, the game wont let you get a height above 250. 
+If you know what your doing and edit the LVL file itself you can increase the height that way.
+Alternatively if you don't know what your doing, save a copy of the LVL beforehand. (i dont wanna be responsible for you bricking the file somehow)
+
+[Traps] | Is not mod reliant
+- Trap Mode, Kill or Damage options.
+- Kill Delay, Self explanitory.
+- Damage, Self explanitory.
+- Damage Rate, How many damage is dealt per Ingame Second.
+- Damage Type, Also self explanitory.
+
+[Patroler] | Is not mod reliant
+- You can place Waypoints ontop of other Waypoints (amazing I know)
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
@@ -212,6 +228,13 @@ And yes, contrary to the effect's name you can make smaller words by doing 0.8, 
 - Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime.
 - Static zombies will have dulled versions of their ZColor.
 
+[HudUpdator]
+- You can change the Sky and Ambient values upon updating. (perfect for cutscenes needing darker lighting)
+
+[DefaultSpeed = ChaseSpeed]
+- Makes it so sprinting zombies dont slow down when approaching humans.
+- Is also a zombie only option in the spawner.
+
 [Kill Reciever]
 - When signal recieved, kills the zombie.
 - RecieverDamageType, when signal recieved, zombie is killed with specified damage type.
@@ -221,23 +244,6 @@ And yes, contrary to the effect's name you can make smaller words by doing 0.8, 
 
 [One Way Colliders]
 - Has active/inactive/toggle recievers now.
-
-[Extended LevelSize] | Is not mod reliant
-- Level Width is extended to 5000. Unfortunately to achieve this, the game wont let you get a height above 250. 
-If you know what your doing and edit the LVL file itself you can increase the height that way.
-Alternatively if you don't know what your doing, save a copy of the LVL beforehand. (i dont wanna be responsible for you bricking the file somehow)
-
-[Traps] | Is not mod reliant
-- Trap Mode, Kill or Damage options.
-- Kill Delay, Self explanitory.
-- Damage, Self explanitory.
-- Damage Rate, How many damage is dealt per Ingame Second.
-- Damage Type, Also self explanitory.
-
-[Patroler] | Is not mod reliant
-- You can place Waypoints ontop of other Waypoints
-
-
 
 
 
