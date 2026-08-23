@@ -25,29 +25,30 @@ A: I'm no ladies man myself, so I cant help you.
 
 Section One : Vanilla Modifications
 
-[Is Contaminable]
-- Allows or Disallows the useage of contamination on Humans. | Is not mod reliant
 
-[Resist Scream]
-- Human doesn't care for screams. Does not set off "On Screamed" signals | Is not mod reliant
+[Is Contaminable] | Is not mod reliant
+- Allows or Disallows the useage of contamination on Humans.
 
-[GrabbedOnAttack]
-- Human can be grabbed by zombies. | Is not mod reliant
+[Resist Scream] | Is not mod reliant
+- Human doesn't care for screams. Does not set off "On Screamed" signals
 
-[InvincebleOnAttack]
-- Turns human invincble on attack, Chance of bugging. | Is not mod reliant
+[GrabbedOnAttack] | Is not mod reliant
+- Human can be grabbed by zombies.
 
-[AllowMultipleAttackers]
-- Lets multiple zombies attack | Is not mod reliant
+[InvincebleOnAttack] | Is not mod reliant
+- Turns human invincble on attack, Chance of bugging.
 
-[VisionFollowTarget]
-- Sniper aim/lasers do not chase enemies. | Is not mod reliant
+[AllowMultipleAttackers] | Is not mod reliant
+- Lets multiple zombies attack.
 
-[FleeBeforeZombieExplode]
-- Humans run from explosions. | Is not mod reliant
+[VisionFollowTarget] | Is not mod reliant
+- Sniper aim/lasers do not chase enemies.
 
-[IgnoreDamage]
-- Humans don't notice getting hurt. | Is not mod reliant
+[FleeBeforeZombieExplode] | Is not mod reliant
+- Humans run from explosions.
+
+[IgnoreDamage] | Is not mod reliant
+- Humans don't notice getting hurt.
 
 [Attitude] | Is not mod reliant
 - Fearful, Makes Human act like a civilian.
@@ -64,9 +65,12 @@ Section One : Vanilla Modifications
 [AlertRelayRatio] | Is not mod reliant
 - Bigger number means more people can be chain-alerted, smaller means less.
 
-[Cornered] | Is not mod reliant
-- Supposed to make human act like its cornered, dont know if it actually works tho lmao.
+[Elevators] | Is not mod reliant
+- AttachPassengers, Toggles wether or not passengers stick to it. (dont make the elevatorspeed go above 2 else the human will get stuck when walking)
+- Has [DamageType]
 
+[LevelLoader] | Is not mod reliant
+- Adds "LoadSpecificLevel" option.
 
 [Extended LevelSize] | Is not mod reliant
 - Level Width is extended to 5000. Unfortunately to achieve this, the game wont let you get a height above 250. 
@@ -82,14 +86,19 @@ Alternatively if you don't know what your doing, save a copy of the LVL beforeha
 
 [Patroler] | Is not mod reliant
 - You can place Waypoints ontop of other Waypoints (amazing I know)
+- You can color code signals by holding R, (red) G, (green) B (blue) or Y (yellow) when connecting signals
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-Section Two : Modded Modifications
+Section Two : Main ver Modifications
 
 If you intend to use any of the options listed below this point, remember that you gotta put
 a link to this mod in the description of your workshop campaign
-so your players can download the mod and actually see these features in effect. I repeat, These are not vanilla friendly features.
+so your players can download the mod and actually see these features in effect.
+I repeat, These are not vanilla friendly features.
+
+Remember, When selecting a human in the main vers, Hold H or T beforehand to show the extra options. 
+They are hidden because they clutter the menu severely.
 
 | Combat
 
@@ -120,7 +129,13 @@ so your players can download the mod and actually see these features in effect. 
 [Damage Range]
 - How far a Human attack will deal damage.
 
+[Weapon Reload Speed]
+- How fast/slow a human will reload.
+
 | Misc
+
+[Has Custom Size?]
+Allows the values [XSize] and [YSize] to take effect
 
 [Glow]
 - Makes the Human glow.
@@ -160,6 +175,50 @@ so your players can download the mod and actually see these features in effect. 
 [Is Stealthy]
 - Humans wont be targeted by zombies.
 
+[JumpTrigger]
+- Doesn't need to be grounded, Jumptrigger says "fuck physics" and makes humans jump midair.
+- Keep Current Orientation, When jump occurs, keep current orientation.
+- Human Only, self explanitory.
+- World Only, self explanitory.
+
+[HudController]
+- AMBVALUE, 0-1, decides Ambient value.
+- SKYVALUE, 0-1, decides Sky value.
+- Set SkyColor via RGB, self explanitory
+- Tween speed, How fast the tween changes to your value. (personal fav is 0.02)
+
+[HealthRestore]
+- RestoreHealth, Regenerates full health.
+- RestoreSetHealth, Regenerates whatever you set the [Health Regen Amount] to be.
+- RestoreQuarterHealth, Regenerates a quarter of Hp.
+- RestoreHalfHealth, Regenerates half of it's Hp.
+
+[ToggleInvinciblity]
+- When Signal recieved, Toggle Invincibility.
+
+[ExecutionTimer]
+- UseRandomWaitingTime, Toggles if timer uses random time instead.
+- MinWaitingTime, Minium amount of time that needs to pass before eligible to send signal.
+- MaxWaitingTime, Maximum amount of time that can pass before sending signal.
+
+[ZColors]
+- Zombies & Humans can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
+- Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime.
+- Static zombies will have dulled versions of their ZColor.
+
+[DefaultSpeed = ChaseSpeed]
+- Makes it so sprinting zombies dont slow down when approaching humans.
+- Is also a zombie only option in the spawner.
+
+[Kill Reciever]
+- When signal recieved, kills the zombie.
+- RecieverDamageType, when signal recieved, zombie is killed with specified damage type.
+
+[Vip]
+- You can now give zombies the VIP treatment they've always deserved.
+
+[One Way Colliders]
+- Has active/inactive/toggle recievers now.
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 Section Three : Other Editor Shit
@@ -207,44 +266,6 @@ And yes, contrary to the effect's name you can make smaller words by doing 0.8, 
 [Big=2][Shake=3][Red] ANGRY SHOUTY WORDS! [/Big][/Shake][Red]
 
 [Big=0.6][Shake=1.8] Shhhhhhhh there's zombies everywhere! [/Big][/Shake]
-
-
-[HealthRestore]
-- RestoreHealth, Regenerates full health.
-- RestoreSetHealth, Regenerates whatever you set the [Health Regen Amount] to be.
-- RestoreQuarterHealth, Regenerates a quarter of Hp.
-- RestoreHalfHealth, Regenerates half of it's Hp.
-
-[ToggleInvinciblity]
-- When Signal recieved, Toggle Invincibility.
-
-[ExecutionTimer]
-- UseRandomWaitingTime, Toggles if timer uses random time instead.
-- MinWaitingTime, Minium amount of time that needs to pass before eligible to send signal.
-- MaxWaitingTime, Maximum amount of time that can pass before sending signal.
-
-[ZColors]
-- Zombies & Humans can be painted into different colors, Spawnpoints also have this option incase you want a infinite horde of magenta for some reason.
-- Zombies have TurnColor recievers, recieving a TurnColor signal will change into the color graudually using the specified ChangeColorTime.
-- Static zombies will have dulled versions of their ZColor.
-
-[HudUpdator]
-- You can change the Sky and Ambient values upon updating. (perfect for cutscenes needing darker lighting)
-
-[DefaultSpeed = ChaseSpeed]
-- Makes it so sprinting zombies dont slow down when approaching humans.
-- Is also a zombie only option in the spawner.
-
-[Kill Reciever]
-- When signal recieved, kills the zombie.
-- RecieverDamageType, when signal recieved, zombie is killed with specified damage type.
-
-[Vip]
-- You can now give zombies the VIP treatment they've always deserved.
-
-[One Way Colliders]
-- Has active/inactive/toggle recievers now.
-
 
 
 
